@@ -1,0 +1,13 @@
+input {
+    height: 30px;
+    width: 200px;
+}
+
+button {
+    background-color: deepskyblue;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+}

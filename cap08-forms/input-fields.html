@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Hero Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/input-fields.css" rel="stylesheet">
+</head>
+
+<body>
+	<form id="hero">
+		<p>Name Hero</p>
+		<label for="name" class="break">Name:</label>
+		<input type="text" name="name" autofocus placeholder="Your Super Hero Name" maxlength="15" required>
+		<label for="realName" class="break">Real Name:</label>
+		<input type="password" name="realName"> <br/><br/>
+
+		<p>Super Powers</p>
+		<label for="flight">Flight:</label>
+		<input class="powers" type="checkbox" value="Flight" name="powers"><br/>
+		<label for="strength">Super Strength:</label>
+		<input class="powers" type="checkbox" value="Strength" name="powers"><br/>
+		<label for="speed">Super Speed:</label>
+		<input class="powers" type="checkbox" value="Super Speed" name="powers"><br/>
+		<label for="energy">Energy Blasts:</label>
+		<input class="powers" type="checkbox" value="Energy Blasts" name="powers"><br/>
+		<label for="telekinesis">Telekinesis:</label>
+		<input class="powers" type="checkbox" value="Telekinesis" name="powers">
+
+		<br/><br/>
+		<p>What type of hero are you?</p>
+		<label>Hero:</label>
+		<input class="type-hero" type="radio" name="type" value="Hero">
+		<label>Villain:</label>
+		<input class="type-hero" type="radio" name="type" value="Villain">
+		<label>Anti-Hero:</label>
+		<input class="type-hero" type="radio" name="type" value="Antihero">
+		<br/>
+		<label for="age" class="break">Age:</label>
+		<input type="number" name="age" min=0 step=1>
+		<br/>
+		<label for="City" class="break">Base of Operations:</label>
+		<select id="city" name="city">
+            <option value="" selected>Choose a City</option>
+            <option value="Metropolis">Metropolis</option>
+            <option value="Gotham City">Gotham City</option>
+            <option value="Keystone City">Keystone City</option>
+            <option value="Coast City">Coast City</option>
+            <option value="Star City">Star City</option>
+        </select>
+        <br/>
+        <label for="origin" class="break">Origin Story:</label>
+        <textarea name="origin" rows="20" cols="60"></textarea>
+
+		<br/>
+		<br/>
+		<button class="reset" type="reset">Reset</button>
+		<button class="submit" type="submit">Submit</button>
+	</form>
+
+	<script type="text/javascript" src="js/input-fields.js"></script>
+</body>
+
+</html>

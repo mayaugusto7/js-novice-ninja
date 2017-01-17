@@ -1,0 +1,23 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    margin: 5px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+}
+
+button {
+    background-color: deepskyblue;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+    font-size: 14px;
+}
+
+label.break{
+    display: block;
+}
